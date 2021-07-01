@@ -1,0 +1,33 @@
+/* ------------------------- RESET ------------------------- */
+* {
+	box-sizing: border-box;
+	color: #081a24;
+	font-family: 'Montserrat', sans-serif;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+a {
+	color: #ffffff;
+}
+
+/* ------------------------- CONFIGS ------------------------- */
+.container {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	max-width: 1000px;
+	width: 80%;
+}
+
+.card:hover {
+	opacity: 0.8;
+	transform: scale(104%);
+	transition: .3s ease-in-out;
+}
+
+.menu .logo:hover {
+	opacity: .8;
+}

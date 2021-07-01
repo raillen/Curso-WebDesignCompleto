@@ -1,0 +1,137 @@
+@media(max-width: 768px) {
+	.container {
+		display: flex;
+		flex-direction: column;
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	/* HEADER */
+	.menu {
+		align-items: center;
+		background-color: #081a24;
+		display: flex;
+		height: 50px;
+		justify-content: space-between;
+		padding: 20px 30px;
+	}
+
+	.menu .fa-bars {
+		color: #ffffff;
+		display: block;
+		font-size: 1.5rem;
+		margin-left: 20px;
+	}
+
+	.menu ul {
+		display: none;
+	}
+
+	/* FIRST SECTION */
+	.session-title {
+		font-size: 1.8rem;
+		padding: 30px 30px 20px 30px;
+		text-align: center;
+	}
+
+	.session-text {
+		font-size: .9rem;
+		font-weight: 300;
+		padding: 0 30px 20px 30px;
+		text-align: center;
+	}
+
+	/* SECOND SECTION - GALLERY */
+	.gallery {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding: 10px 30px 20px 30px;
+	}
+
+	.card {
+		align-self: center;
+		margin-bottom: 30px;
+		max-width: 350px;
+		width: 80%;
+	}
+
+	.card-img {
+		width: 100%;
+	}
+
+	.card-title {
+		color: #414446;
+		font-size: 1rem;
+		letter-spacing: 5px;
+		margin-bottom: 10px;
+		margin-top: 10px;
+		text-transform: uppercase;
+	}
+
+	.card-title,
+	.card-content {
+		text-align: center;
+	}
+
+	.card-content {
+		color: #788286;
+	}
+
+	/* THIRD SECTION - ABOUT */
+	.about {
+		background: url(../imagens/bg_detalhe.png);
+		padding: 60px;
+	}
+
+	.about .about-title,
+	.about-content {
+		color: #ffffff;
+	}
+
+	.about .about-title {
+		font-size: 2rem;
+		text-transform: uppercase;
+	}
+
+	.about .about-content {
+		font-size: .85rem;
+		font-weight: 300;
+		margin-top: 20px;
+		padding: 0 40px 0 0;
+	}
+
+	/* FORTH SECTION - FOOTER */
+	.contact {
+		margin-bottom: 40px;
+	}
+
+	.contact-title,
+	.contact-content {
+		font-size: 1.5rem;
+		font-weight: 700;
+		padding: 0 20px;
+		text-align: center;
+	}
+
+	.contact-title {
+		margin-top: 40px;
+		text-transform: uppercase;
+	}
+
+	.map {
+		margin-bottom: -5px;
+	}
+
+	.copyright {
+		background-color: #081a24;
+		color: #ffffff;
+		display: block;
+		font-size: .8rem;
+		font-weight: 200;
+		letter-spacing: 3px;
+		padding: 30px;
+		text-align: center;
+	}
+}
